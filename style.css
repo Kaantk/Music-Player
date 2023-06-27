@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #06283D;
+}
+
+.container {
+    width: 20%;
+    background-color: #ffff;
+    position: absolute;
+    border-radius: 1em;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .music-img {
+    position: relative;
+    bottom: 25px; 
+    background-image: url(/image/olsun.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 2em;
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .music-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .music-volume {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.container .music-details .music-name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0.125em;
+}
+
+.container .music-details .songer-name {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 1.5em;
+}
+
+.container .progress-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0em 2em;
+}
+
+.container .progress-bar .progress-input {
+    width: 100%;
+    margin-bottom: 0.125em;
+}
+
+.container .progress-bar .times {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.container .progress-bar .times span {
+    font-size: 12px;
+}
+
+.container .controls {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.5em;
+}
+
+.current-time , .duration-time {
+    font-weight: 600;
+}

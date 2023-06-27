@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="music-img">
+        </div>
+        <audio src="" id="audio"></audio>
+        <div class="music-details">
+            <p class="music-name">Olsun</p>
+            <p class="songer-name">Sertap Erener</p>
+        </div>
+        <div class="progress-bar">
+            <input type="range" class="progress-input" value="0">
+            <div class="times">
+                <span class="current-time">0:00</span>
+                <span class="duration-time">0:00</span>
+            </div>
+        </div>
+        <div class="controls">
+            <i id="previous" class="fa-solid fa-backward-step fa-2xl"></i>
+            <i id="play" class="fa-solid fa-play fa-2xl"></i>
+            <i id="next" class="fa-solid fa-forward-step fa-2xl"></i>
+        </div>
+    </div>
+
+    <script src="/JS/music.js"></script>
+    <script src="/JS/musicPlayer.js"></script>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
